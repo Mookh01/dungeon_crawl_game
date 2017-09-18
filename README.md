@@ -2,7 +2,7 @@
 A challenge from freeCodeCamp to build a classic dungeon crawl game.
 
 # Working Application
-https://codepen.io/mookh01/pen/NaxNvV
+https://codepen.io/mookh01/full/NaxNvV
 
 # Objective
 
