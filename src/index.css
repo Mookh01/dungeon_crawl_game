@@ -1,0 +1,192 @@
+
+body {
+    background-color: #424242;
+    font-family: Jura, sans-serif;
+    color: #ddd;
+}
+
+button {
+  font-size: 1em;
+  margin-right: 10px;
+  font-family: 'Righteous';
+  border-radius: 10px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2em;
+    color:  #FF0000;
+    font-family: 'Permanent Marker';
+}
+
+/* !!!  */
+#app {
+    display: flex;
+    justify-content: center;
+}
+
+.bckgrnd-1 {
+    /*background: #B47979;*/
+    background:url(
+      data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAKElEQVQYV2NkQANbKiv/MyKLgQR82tsZ4YIwAZAisCBMAK4SWQVMAQD/MRlQmcD6BgAAAABJRU5ErkJggg==
+ ) repeat;
+}
+
+.bckgrnd-2 {
+    /*background: #892E2E;*/
+    background:url(
+      data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAKElEQVQYV2NkQAMzLSz+MyKLgQTST5xghAvCBECKwIIwAbhKZBUwBQC8BxgWPg4eBAAAAABJRU5ErkJggg==
+   ) repeat;
+}
+
+.bckgrnd-3 {
+    /*background: #6E2525;*/
+    background:url(
+      data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAKElEQVQYV2NkQAPJHBz/GZHFQAJzf/xghAvCBECKwIIwAbhKZBUwBQB7hxbqh8Tj3gAAAABJRU5ErkJggg==
+ ) repeat;
+}
+
+.bckgrnd-4 {
+    /*background: #461818;*/
+    background:url(
+      data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAKElEQVQYV2NkQAMfGET+MyKLgQQEGN4wwgVhAiBFYEGYAFwlsgqYAgAA1xMM2W72MgAAAABJRU5ErkJggg==
+ ) repeat;
+}
+
+.boss {
+    background: #FF0000;
+    border: 1px solid #971eb2;
+}
+
+.cell {
+    height: 1em;
+    width: 1em;
+    border: 1px solid #2D2D2D;
+}
+
+.colorIcon {
+    margin-right: 0.5em;
+    border: 0;
+}
+
+.container {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.enemy {
+    background: #FFA500;
+    border: 1px solid #5a910d;
+}
+
+.energy {
+    background: #800080;
+    border: 1px solid #339933;
+}
+
+.floor {
+    background: #d6d1d1;
+    border: 1px solid #dbd6d6;
+}
+
+
+.grid-wrapper {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.legend{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 20em;
+    font-size: 1em;
+    font-family: 'Righteous';
+    color: #000000;
+}
+
+.legendDetails {
+    display: flex;
+    margin: 0.6em 0;
+    min-width: 40%;
+}
+
+.messageArea{
+  display: flex;
+  color: #FFFFFF;
+  justify-content: center;
+  font-size: 1.1em;
+}
+
+.messages ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.messages li {
+    margin-bottom: 0.5em;
+    font-size: 0.9em;
+    list-style-type: none;
+    opacity: 0.5;
+}
+
+.messages li:last-child {
+    margin-bottom: 0;
+    opacity: 1.0;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.msgboard{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 20em;
+    font-size: 1em;
+    font-family: 'Righteous';
+    color: #000000;
+}
+
+.panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    padding: 0.8em 1.2em;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.player {
+  background: #0000FF;
+  border: 1px solid #5a910d;
+}
+
+
+.portal {
+    background: #842222;
+    border: 1px solid #CC8400;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.titleArea {
+    display: flex;
+    justify-content: center;
+    margin-top: .5em;
+    font-size: 1.1em;
+}
+
+
+.weapon {
+    background: #f3f70c;
+    border: 1px solid #a4a705;
+}
