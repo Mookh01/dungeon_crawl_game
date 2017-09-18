@@ -5,7 +5,7 @@ import './index.css';
 // import App from './DungeonDraft';
 // import App from './Waffle';
 // import App from './Canvas';
-import App from './Walkthrough';
+import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
